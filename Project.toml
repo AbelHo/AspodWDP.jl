@@ -1,3 +1,8 @@
+name = "AspodWDP.jl"
+uuid = "48c42c13-a627-478a-bce8-9c4d9933744f"
+authors = ["AbelHo <21101710+AbelHo@users.noreply.github.com>"]
+version = "0.0.1"
+
 [deps]
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"

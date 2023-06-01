@@ -3,5 +3,5 @@ module AspodWDP.jl
 # Write your package code here.
 #include("init.jl")
 #include("projection.jl")
-
+greet() = print("Hello World!")
 end
