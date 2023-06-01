@@ -1,0 +1,6 @@
+[deps]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
+WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
