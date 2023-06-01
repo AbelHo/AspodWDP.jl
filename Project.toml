@@ -1,4 +1,4 @@
-name = "AspodWDP.jl"
+name = "AspodWDP"
 uuid = "48c42c13-a627-478a-bce8-9c4d9933744f"
 authors = ["AbelHo <21101710+AbelHo@users.noreply.github.com>"]
 version = "0.0.1"
