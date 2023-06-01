@@ -4,6 +4,6 @@ module AspodWDP
 #include("init.jl")
 #include("projection.jl")
 greet() = print("Hello World!")
-analyse_auto() = println("Analysis temporary interface begins....")
+analyse_auto() = println("Analysis temporary interface begins....\n\n\n\n")
 export greet, analyse_auto
 end
