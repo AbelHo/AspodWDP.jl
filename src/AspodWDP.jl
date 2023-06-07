@@ -3,10 +3,10 @@ module AspodWDP
 # Write your package code here.
 include("media_info.jl")
 include("main.jl")
-# include("edit_file.jl")
+include("edit_file.jl")
 
 greet() = print("Hello World!")
 # analyse_auto() = println("Analysis temporary interface begins....\n\n\n\n")
-export greet, analyse_auto
+export greet, analyse_auto, merge_VidAu_folder
 # analyse_auto()
 end

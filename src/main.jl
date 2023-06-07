@@ -3,7 +3,7 @@ include("media_info.jl")
 
 split_basename(x) = splitext(basename(x))[1]
 
-function analyse_auto(;folname=joinpath(homedir(), "Desktop/aspod/new"), newfolname=joinpath(homedir(), "Desktop/aspod/merged"))
+function merge_VidAu_folder(;folname=joinpath(homedir(), "Desktop/aspod/new"), newfolname=joinpath(homedir(), "Desktop/aspod/merged"))
     vids, audios = extract_vid_au(folname)
     vids, audios = match_recording(vids, audios)
     @show [vids, audios]
