@@ -9,7 +9,7 @@ function analyse_auto(;folname=joinpath(homedir(), "Desktop/aspod/new"), newfoln
     @show [vids, audios]
 
     !isdir(newfolname) && mkdir(newfolname)
-    # combine_VidAu.(vids, audios, joinpath.(newfolname, split_basename.(vids).*".mp4") )
+    combine_VidAu.(vids, audios, joinpath.(newfolname, split_basename.(vids).*".mp4") )
     return vids, audios
 end
 

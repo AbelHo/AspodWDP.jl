@@ -8,5 +8,5 @@ include("main.jl")
 greet() = print("Hello World!")
 # analyse_auto() = println("Analysis temporary interface begins....\n\n\n\n")
 export greet, analyse_auto
-analyse_auto()
+# analyse_auto()
 end
