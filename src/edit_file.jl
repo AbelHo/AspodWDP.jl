@@ -17,5 +17,7 @@ function edit_files()
         write(file, string__merge_VidAu_folder)
     end
 
+    @info "EDITED Files!"
+
 end
 
