@@ -14,5 +14,5 @@ function analyse_auto(;folname=joinpath(homedir(), "Desktop/aspod/new"), newfoln
 end
 
 function combine_VidAu(vidfname, aufname, new_vidfname)
-    output = @ffmpeg_env run(`ffmpeg -i "$vidfname" -i "$aufname" -map 0:v -map 1:a -vf format=yuv420p -ar 96000 -af loudnorm=I=-16:LRA=11:TP=-1.5 "$new_vidfname"`)
+    output = @ffmpeg_env run(`ffmpeg -i "$vidfname" -i "$aufname" -map 0:v -map 1:a -vf format=yuv420p -ar 96000 -af loudnorm=I=-16:LRA=11:TP=-1.5 "$new_vidfname" -y`)
 end
